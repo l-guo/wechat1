@@ -1,5 +1,5 @@
 {
-  "name": "tld/wechat",
+  "name": "tlds/wechat",
   "description": "wechat",
   "version": "1.0.0",
   "keywords": [
@@ -23,7 +23,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Tld\\Wechat\\": "app/"
+      "Tlds\\Wechat\\": "app/"
     }
   }
 }
