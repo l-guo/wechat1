@@ -5,12 +5,12 @@
   "keywords": [
     "laravel"
   ],
-      "repositories": [
+       "repositories": [
         {
           "type": "package",
           "package": {
-            "name": "overtrue/wechat",
-            "version": "3.0",
+            "name": "guo/wechat",
+            "version": "dev-master",
             "type": "package",
             "source": {
                 "url": "https://github.com/l-guo/wechat1",
