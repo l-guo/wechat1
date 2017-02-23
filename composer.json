@@ -1,25 +1,10 @@
 {
-  "name": "tld/wechat",
+  "name": "guo/wechat",
   "description": "wechat",
   "version": "1.0.0",
   "keywords": [
     "laravel"
   ],
-       "repositories": [
-        {
-          "type": "package",
-          "package": {
-            "name": "guo/wechat",
-            "version": "dev-master",
-            "type": "package",
-            "source": {
-                "url": "https://github.com/l-guo/wechat1",
-                "type": "git",
-                "reference": "master"
-            }
-          }
-        }
-    ],
   "license": "MIT",
   "type": "library",
   "authors": [
@@ -38,7 +23,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Tlds\\Wechat\\": "app/"
+      "Guo\\Wechat\\": "app/"
     }
   }
 }

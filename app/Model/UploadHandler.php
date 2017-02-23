@@ -1,5 +1,5 @@
 <?php
-namespace Tld\Wechat\Model;
+namespace Guo\Wechat\Model;
 /*
  * jQuery File Upload Plugin PHP Class 8.0.0
  * https://github.com/blueimp/jQuery-File-Upload

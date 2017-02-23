@@ -1,6 +1,6 @@
 <?php
 
-namespace Tld\Wechat\Providers;
+namespace Guo\Wechat\Providers;
 
 use App;
 use Config;

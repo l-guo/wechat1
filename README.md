@@ -10,7 +10,7 @@ composer require guo/wechat:dev-master
 Register the service providers to enable the package:
 ```
 Overtrue\LaravelWechat\ServiceProvider::class,
-Tld\Wechat\Providers\AppServiceProvider::class,
+Guo\Wechat\Providers\AppServiceProvider::class,
 Collective\Html\HtmlServiceProvider::class,
 ```
 Register the service aliases to enable the package:

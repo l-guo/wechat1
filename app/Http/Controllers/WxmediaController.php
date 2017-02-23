@@ -1,9 +1,9 @@
 <?php
-namespace Tld\Wechat\Http\Controllers;
+namespace Guo\Wechat\Http\Controllers;
 
-use Tld\Wechat\Model\Media;
-use Tld\Wechat\Model\Complaint;
-use Tld\Wechat\Model\Link;
+use Guo\Wechat\Model\Media;
+use Guo\Wechat\Model\Complaint;
+use Guo\Wechat\Model\Link;
 use Illuminate\Http\Request;
 use EasyWeChat\Core\Exception;
 use WechatToken;

@@ -1,11 +1,11 @@
 <?php
 
-namespace Tld\Wechat\Http\Controllers;
+namespace Guo\Wechat\Http\Controllers;
 
-use Tld\Wechat\Model\Media;
-use Tld\Wechat\Model\MediaBundle;
-use Tld\Wechat\Model\Link;
-use Tld\Wechat\Model\Rule;
+use Guo\Wechat\Model\Media;
+use Guo\Wechat\Model\MediaBundle;
+use Guo\Wechat\Model\Link;
+use Guo\Wechat\Model\Rule;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redis;
 use WechatToken;
@@ -526,7 +526,7 @@ class MediaController extends CommonController
 
     public function upload()
     {
-        new \Tld\Wechat\Model\UploadHandler();
+        new \Guo\Wechat\Model\UploadHandler();
     }
 
     public function delete(Request $request)

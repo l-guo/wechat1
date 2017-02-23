@@ -1,14 +1,14 @@
 <?php
 
-namespace  Tld\Wechat\Http\Controllers\Api;
+namespace  Guo\Wechat\Http\Controllers\Api;
 
-use Tld\Wechat\Model\Rule;
-use Tld\Wechat\Model\Media;
+use Guo\Wechat\Model\Rule;
+use Guo\Wechat\Model\Media;
 use App\Http\Controllers\Controller;
 use Exception;
-use Tld\Wechat\Model\Message;
+use Guo\Wechat\Model\Message;
 use EasyWeChat\Foundation\Application;
-use Tld\Wechat\Model\RuleSpecial;
+use Guo\Wechat\Model\RuleSpecial;
 use Illuminate\Support\Facades\Log;
 use DB;
 use EasyWeChat\Message\News;

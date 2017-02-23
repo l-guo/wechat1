@@ -1,10 +1,11 @@
 <?php
 
-namespace Tld\Wechat\Http\Controllers;
+namespace Guo\Wechat\Http\Controllers;
 
+use Guo\Wechat\Model\Template;
 use Illuminate\Http\Request;
-use Tld\Wechat\Model\MassLog;
-use Tld\Wechat\Model\Media;
+use Guo\Wechat\Model\MassLog;
+use Guo\Wechat\Model\Media;
 use Validator;
 use EasyWeChat\Core\AccessToken;
 use DB;
@@ -55,11 +56,13 @@ class MassIndexController extends CommonController
             }
 
         }
+        $tlist=Template::orderby("id","desc")->get();
         return view('wechat::mass.massTag', [
             'result' => $result,
             'resultData' => $resultData,
             'medias' => $mediasView,
             'mediaskf' => $mediasViewKf,
+            'tlist'=>$tlist,
             'url' => '/mass/index'
         ]);
     }
@@ -98,12 +101,14 @@ class MassIndexController extends CommonController
                 $mediasViewKf[$v->id . '#【单图文】' . $v->title] = '[单图文]' . $v->title;
             }
         }
+        $tlist=Template::orderby("id","desc")->get();
         return view('wechat::mass.mass', [
             'result' => $result,
             'resultData' => $resultData,
             'tags' => $tags,
             'userID' => $userID,
             'medias' => $mediasView,
+            'tlist'=>$tlist,
             'mediaskf' => $mediasViewKf,
             'url' => '/mass/test'
         ]);
