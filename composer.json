@@ -5,6 +5,21 @@
   "keywords": [
     "laravel"
   ],
+      "repositories": [
+        {
+          "type": "package",
+          "package": {
+            "name": "overtrue/wechat",
+            "version": "3.0",
+            "type": "package",
+            "source": {
+                "url": "https://github.com/l-guo/wechat1",
+                "type": "git",
+                "reference": "master"
+            }
+          }
+        }
+    ],
   "license": "MIT",
   "type": "library",
   "authors": [
