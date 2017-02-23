@@ -6,7 +6,7 @@
  * Time: 16:00
  */
 
-namespace Guo\Wechat\Http\Controllers;
+namespace Tld\Wechat\Http\Controllers;
 
 
 use EasyWeChat\Core\Exception;

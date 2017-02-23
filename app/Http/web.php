@@ -12,7 +12,7 @@
 */
 Route::group(['middleware' => ['web']], function () {
     Route::group(['prefix' => config("wxconfig.prefix")], function () {
-        Route::group(['namespace' => '\Guo\Wechat\Http\Controllers'], function () {
+        Route::group(['namespace' => '\Tld\Wechat\Http\Controllers'], function () {
 
             Route::get('filelist', 'HomeController@filelist');
             Route::get('dirlist', 'HomeController@dirlist');

@@ -1,6 +1,6 @@
 <?php
 
-namespace Guo\Wechat\Jobs;
+namespace Tld\Wechat\Jobs;
 
 use Illuminate\Bus\Queueable;
 

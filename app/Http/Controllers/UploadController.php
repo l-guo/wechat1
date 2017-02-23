@@ -1,6 +1,6 @@
 <?php
 
-namespace Guo\Wechat\Http\Controllers;
+namespace Tld\Wechat\Http\Controllers;
 
 use Illuminate\Http\Request;
 ////use WechatToken;

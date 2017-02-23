@@ -1,11 +1,11 @@
 <?php
 
-namespace Guo\Wechat\Http\Controllers;
+namespace Tld\Wechat\Http\Controllers;
 
-use Guo\Wechat\Model\Template;
+use Tld\Wechat\Model\Template;
 use Illuminate\Http\Request;
-use Guo\Wechat\Model\MassLog;
-use Guo\Wechat\Model\Media;
+use Tld\Wechat\Model\MassLog;
+use Tld\Wechat\Model\Media;
 use Validator;
 use EasyWeChat\Core\AccessToken;
 use DB;

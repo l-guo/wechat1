@@ -1,8 +1,8 @@
 <?php
 
-namespace Guo\Wechat\Jobs;
+namespace Tld\Wechat\Jobs;
 
-use Guo\Wechat\Jobs\Job;
+use Tld\Wechat\Jobs\Job;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;

@@ -5,7 +5,7 @@
  * Date: 16-7-15
  * Time: 下午5:07
  */
-namespace Guo\Wechat\Model;
+namespace Tld\Wechat\Model;
 
 use Illuminate\Database\Eloquent\Model;
 

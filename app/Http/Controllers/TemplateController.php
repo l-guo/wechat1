@@ -1,10 +1,10 @@
 <?php
 
-namespace Guo\Wechat\Http\Controllers;
+namespace Tld\Wechat\Http\Controllers;
 
 
-use Guo\Wechat\Model\Template;
-use Guo\Wechat\Model\Template_data;
+use Tld\Wechat\Model\Template;
+use Tld\Wechat\Model\Template_data;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;

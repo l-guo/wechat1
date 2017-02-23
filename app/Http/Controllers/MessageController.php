@@ -1,9 +1,9 @@
 <?php
 
-namespace Guo\Wechat\Http\Controllers;
+namespace Tld\Wechat\Http\Controllers;
 
 
-use Guo\Wechat\Model\Message;
+use Tld\Wechat\Model\Message;
 use App\Newuser as User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;

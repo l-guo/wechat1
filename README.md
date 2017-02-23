@@ -4,13 +4,13 @@
 
 # Installation
 
-composer require guo/wechat:dev-master
+composer require Tld/Wechat:dev-master
 
 ## Register with config/app.php
 Register the service providers to enable the package:
 ```
 Overtrue\LaravelWechat\ServiceProvider::class,
-Guo\Wechat\Providers\AppServiceProvider::class,
+Tld\Wechat\Providers\AppServiceProvider::class,
 Collective\Html\HtmlServiceProvider::class,
 ```
 Register the service aliases to enable the package:
@@ -42,6 +42,7 @@ php artisan  vendor:publish --tag=admin-wechat
 /mass/index     正式群发
 /message        粉丝消息管理 
 /qrcode         生成二维码
+/template/list         模板消息设置
 
 ```
 

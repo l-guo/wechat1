@@ -1,14 +1,14 @@
 <?php
 
-namespace Guo\Wechat\Http\Controllers;
+namespace Tld\Wechat\Http\Controllers;
 
 
-use Guo\Wechat\Jobs\Sendkefu;
-use Guo\Wechat\Jobs\SendTemp;
+use Tld\Wechat\Jobs\Sendkefu;
+use Tld\Wechat\Jobs\SendTemp;
 use Illuminate\Http\Request;
-use Guo\Wechat\Model\MassLog;
-use Guo\Wechat\Model\Media;
-use Guo\Wechat\Model\UserSns;
+use Tld\Wechat\Model\MassLog;
+use Tld\Wechat\Model\Media;
+use Tld\Wechat\Model\UserSns;
 use Validator;
 use DB;
 use Exception;

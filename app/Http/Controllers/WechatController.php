@@ -1,12 +1,12 @@
 <?php
 
-namespace Guo\Wechat\Http\Controllers;
+namespace Tld\Wechat\Http\Controllers;
 
-use Guo\Wechat\Model\Media;
-use Guo\Wechat\Model\RuleSpecial;
-use Guo\Wechat\Model\Rule;
-use Guo\Wechat\Model\RuleCate;
-use Guo\Wechat\Model\WechatToken;
+use Tld\Wechat\Model\Media;
+use Tld\Wechat\Model\RuleSpecial;
+use Tld\Wechat\Model\Rule;
+use Tld\Wechat\Model\RuleCate;
+use Tld\Wechat\Model\WechatToken;
 use Validator;
 use EasyWeChat\Core\AccessToken;
 use Illuminate\Http\Request;
@@ -533,7 +533,7 @@ class WechatController extends CommonController
 
     public function upload()
     {
-        new \Guo\Wechat\Model\UploadHandler();
+        new \Tld\Wechat\Model\UploadHandler();
 
     }
 }

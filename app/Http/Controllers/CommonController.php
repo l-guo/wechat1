@@ -6,7 +6,7 @@
  * Date: 16-10-21
  * Time: 10:51
  */
-namespace Guo\Wechat\Http\Controllers;
+namespace Tld\Wechat\Http\Controllers;
 
 use EasyWeChat\Foundation\Application;
 use Illuminate\Routing\Controller;
